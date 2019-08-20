@@ -9,9 +9,17 @@ package mainclass;
  *
  * @author user
  */
- public abstract class Vehicle{
-    abstract void accelerate();
-    abstract void stop();
-    abstract void gas();
-    
+public abstract class Vehicle{
+    public abstract void accelerate();
+    public abstract void stop();
+    public abstract void gas();
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        
+        // TODO code application logic here
     }
+    
+}

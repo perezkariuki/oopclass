@@ -12,9 +12,8 @@ package mainclass;
 public class SportsCar implements Automobile {
 
     @Override
-    public boolean startEngine() {
+    public void startEngine() {
         System.out.println("Start or stop engine");
-        return false;
     }
 
     @Override

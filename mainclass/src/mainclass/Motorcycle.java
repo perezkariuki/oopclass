@@ -12,17 +12,17 @@ package mainclass;
 public class Motorcycle extends Vehicle {
 
     @Override
-    void accelerate() {
+    public void accelerate() {
         System.out.println("Motorcycle is accelerating");
     }
 
     @Override
-    void stop() {
+    public void stop() {
         System.out.println("Motorcycle has stopped");
     }
 
     @Override
-    void gas() {
+    public void gas() {
         System.out.println("Motorcycle is on gas");
     }
    

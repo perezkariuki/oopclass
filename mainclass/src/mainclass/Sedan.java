@@ -9,21 +9,46 @@ package mainclass;
  *
  * @author user
  */
-public class Sedan extends Vehicle {
+public class Sedan extends Vehicle implements Automobile {
 
     @Override
-    void accelerate() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void accelerate() {
+        System.out.println("Sedan is accelerating");
     }
 
     @Override
-    void stop() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void stop() {
+        System.out.println("Motorcycle has stopped");
     }
 
     @Override
-    void gas() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void gas() {
+        System.out.println("Motorcycle is on gas");
     }
-    
+
+    @Override
+    public void startEngine() {
+        System.out.println("Start or stop engine");
+    }
+
+    @Override
+    public void stopEngine() {
+        System.out.println("Engine has stopped");
+    }
+
+    @Override
+    public float accelerate(float acc) {
+        System.out.println("accelerating at 200km/h");
+        return 0;
+    }
+
+    @Override
+    public boolean turn(boolean dir) {
+        System.out.println("Turn left or right");
+    return false;
+    }
+
+    void accelerate(String a) {
+      System.out.println(a);
+    }
 }

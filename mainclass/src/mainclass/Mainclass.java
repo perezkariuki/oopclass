@@ -15,11 +15,23 @@ public class Mainclass {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Vehicle Sedan = new Vehicle();
-       Sedan.accelerate();
-       Sedan.stop();
-       Sedan.gas();
-      
+       Bus bus = new Bus();
+       bus.accelerate();
+       bus.stop();
+       bus.gas();
+       
+       Motorcycle moto = new Motorcycle();
+       moto.accelerate();
+       moto.stop();
+       moto.gas();
+       
+       Sedan seda = new Sedan();
+       seda.accelerate();
+       
+       seda.accelerate("acceleration is 12km/h *overload*");
+       
+       
+
         // TODO code application logic here
     }
     

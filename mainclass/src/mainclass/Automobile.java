@@ -10,7 +10,7 @@ package mainclass;
  * @author user
  */
 interface Automobile {
-    public boolean startEngine();
+    public void startEngine();
     public void stopEngine();
     public float accelerate(float acc);
     public boolean turn(boolean dir);
